@@ -7,3 +7,7 @@ __Step 3__: Contribute for the enhancement and results page of this risk scanner
 
 
 ![Screenshot](https://github.com/chandrikadeb7/Covid-Risk-Assessment-Calculator/blob/master/screenshot.png)
+
+
+
+![Screenshot](https://github.com/chandrikadeb7/Covid-Risk-Assessment-Calculator/blob/master/Snapshot.png)
