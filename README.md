@@ -1,6 +1,9 @@
 # Covid-Risk-Assessment-Calculator
 Covid-19 Risk Assessment Scanner inspired by Apollo 24/7 Covid Chatbot (developing state)
 
-Step 1: Clone this repository.  
-Step 2: Open index.html in your browser.  
-Step 3: Contribute for the enhancement and results page of this risk scanner.  
+__Step 1__: Clone this repository.  
+__Step 2__: Open index.html in your browser.  
+__Step 3__: Contribute for the enhancement and results page of this risk scanner.  
+
+
+![Screenshot](https://github.com/chandrikadeb7/Covid-Risk-Assessment-Calculator/blob/master/screenshot.png)
