@@ -1,186 +1,75 @@
 <!DOCTYPE html>
 <html>
-  
-<!-- Mirrored from covid.apollo247.com/ by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 15 Apr 2020 05:39:47 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      COVID-19 Risk Assessment Scanner powered by Apollo 24|7
-    </title>
-    <meta property="og:image" content="static/assets/images/og.jpg" />
-    <meta
-      name="description"
-      content="Stay calm amidst the current paranoia surrounding COVID 19 and calculate your risk level through Apollo's Coronavirus Risk Scan driven AI which has been developed on the basis of guidelines from the WHO and MHFW, Government of India"
-    />
-    <meta
-      name="keywords"
-      content="Coronavirus, COVID-19, Coronavirus Tracker, BreakTheChain"
-    />
-    <meta name="author" content="Apollo 24|7" />
-    <link rel="canonical" href="index.html" />
-    <meta name="robots" content="noodp" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="COVID-19 Risk Assessment Scanner powered by Apollo 24|7"
-    />
-    <meta
-      property="og:description"
-      content="Stay calm amidst the current paranoia surrounding COVID 19 and calculate your risk level through Apollo's Coronavirus Risk Scan driven AI which has been developed on the basis of guidelines from the WHO and MHFW, Government of India"
-    />
-    <meta property="og:url" content="index.html" />
-    <meta
-      property="og:site_name"
-      content="COVID-19 Risk Assessment Scanner powered by Apollo 24|7"
-    />
-    <meta name="twitter:card" content="summary" />
-    <meta
-      name="twitter:description"
-      content="Stay calm amidst the current paranoia surrounding COVID 19 and calculate your risk level through Apollo's Coronavirus Risk Scan driven AI which has been developed on the basis of guidelines from the WHO and MHFW, Government of India"
-    />
-    <meta
-      name="twitter:title"
-      content="COVID-19 Risk Assessment Scanner powered by Apollo 24|7"
-    />
-    <meta name="twitter:site" content="@Apollo24x7" />
-    <meta name="twitter:creator" content="@Apollo24x7" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
 
-    <meta name="msapplication-TileColor" content="#02475b" />
-    <meta name="theme-color" content="#fff" />
-    <link
-      rel="shortcut icon"
-      href="static/assets/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="icon"
-      href="static/assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+</head>
+<body>
+  <iframe class="responsive-iframe" src="https://covid.apollo247.com/"></iframe>
+<footer class="page-footer font-small blue">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="../external.html?link=https://www.googletagmanager.com/gtag/js?id=UA-161578608-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://creticweb.tech/"> Cretic Web Solutions</a>
+  </div>
+  <!-- Copyright -->
 
-      gtag("config", "UA-161578608-1");
-    </script>
+</footer>
+<!-- Footer -->
+</body>
+<script>
+jQuery(document).ready(function($){
+  var currentUrl = window.parent.location.hostname;
+  if (currentUrl == 'www.mysite.com' || currentUrl == 'www.specific.com') {
+    $(function() {
+        $('img').remove('.logo-external');
+    });
+} else {
+  $(function() {
+        $('img').remove('.logo-internal');
+    });
+}
+});
+</script>
+<script>
+function addLogo() {
+    if (window.top.location.host != "mysite.com") {
+        $("#logo").html('<a href="...mysite.com" target="_parent"><img src="...mysite.com/logo.png" border="0"></a>');
+    }
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162080945-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "../www.googletagmanager.com/gtm5445.html" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-PNGHP4L");
-    </script>
-    <!-- End Google Tag Manager -->
+  gtag('config', 'UA-162080945-1');
+</script>
 
-    <link rel="stylesheet" href="static/assets/build/main.min.css" />
-    <!-- Facebook Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "../connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "516415665913994");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none;"
-        src="../external.html?link=https://www.facebook.com/tr?id=516415665913994&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
-  </head>
-  <body onload="renderBot()">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="../external.html?link=https://www.googletagmanager.com/ns.html?id=GTM-PNGHP4L"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden;"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div id="my-botui-app">
-      <div id="target"></div>
-      <main>
-        <div class="container">
-          <div id="locale-bot" class="locale-bot">
-            <bot-ui></bot-ui>
-          </div>
-          <div id="covid-bot">
-            <bot-ui></bot-ui>
-          </div>
-          <button onclick="reset()" class="reset">
-            <i class="fa fa-undo"></i>
-          </button>
-        </div>
-      </main>
-    </div>
-    <div class="loader">
-      <svg
-        class="spinner"
-        width="50px"
-        height="50px"
-        viewBox="0 0 50 50"
-        xmlns="../external.html?link=http://www.w3.org/2000/svg"
-      >
-        <circle
-          class="circle"
-          fill="none"
-          stroke-width="5"
-          stroke-linecap="round"
-          cx="25"
-          cy="25"
-          r="20"
-        ></circle>
-      </svg>
-    </div>
-    <script src="../cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
-    <script src="../external.html?link=https://unpkg.com/mustache@latest"></script>
-    <script src="static/assets/build/main.min.js"></script>
-  </body>
-
-<!-- Mirrored from covid.apollo247.com/ by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 15 Apr 2020 05:41:08 GMT -->
 </html>
