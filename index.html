@@ -41,7 +41,7 @@
 </footer>
 <!-- Footer -->
 </body>
-<sçript>
+<script>
 jQuery(document).ready(function($){
   var currentUrl = window.parent.location.hostname;
   if (currentUrl == 'www.mysite.com' || currentUrl == 'www.specific.com') {
@@ -54,6 +54,13 @@ jQuery(document).ready(function($){
     });
 }
 });
+</script>
+<script>
+function addLogo() {
+    if (window.top.location.host != "mysite.com") {
+        $("#logo").html('<a href="...mysite.com" target="_parent"><img src="...mysite.com/logo.png" border="0"></a>');
+    }
+}
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162080945-1"></script>
