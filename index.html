@@ -41,6 +41,20 @@
 </footer>
 <!-- Footer -->
 </body>
+<sçript>
+jQuery(document).ready(function($){
+  var currentUrl = window.parent.location.hostname;
+  if (currentUrl == 'www.mysite.com' || currentUrl == 'www.specific.com') {
+    $(function() {
+        $('img').remove('.logo-external');
+    });
+} else {
+  $(function() {
+        $('img').remove('.logo-internal');
+    });
+}
+});
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162080945-1"></script>
 <script>
